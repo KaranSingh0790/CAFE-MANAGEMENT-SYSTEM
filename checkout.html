@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
+      body{
+    background-image: linear-gradient(to right bottom, rgb(219, 132, 33) 33%, rgb(0, 0, 1) 67%),
+    linear-gradient( 180deg, rgba(0,0,0,0) 96%, rgba(0,0,0,1) 100%) , url(pic/bg7.jpg);
+}
+
+        .row {
+  display: flex; 
+  padding-left: 180px;
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  margin: 0 -16px;
+  width: 80%;
+  justify-content: center;
+}
+
+.col-25 {
+  -ms-flex: 25%; 
+  flex: 15%;
+}
+
+.col-50 {
+  -ms-flex: 50%; 
+  flex: 50%;
+  width: 80%;
+}
+
+.col-75 {
+  -ms-flex: 75%; 
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 15px;
+}
+
+.container {
+  padding: 5px 50px 50px 50px;
+  border: 2px solid rgba(239, 236, 236, 0);
+  border-radius: 3px;
+  width: 80%;
+}
+
+input[type=text] {
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 7px;
+  border: 1px solid #0a0606;
+  border-radius: 7px;
+}
+input[type=submit] {
+
+  background-color: green;
+  width: 80%;
+  text-align: center;
+
+}
+
+label {
+  margin-bottom: 10px;
+  display:block;
+}
+
+.icon-container {
+  margin-bottom: 15px;
+  padding: 7px 0;
+  font-size: 25px;
+}
+
+.btn {
+  background-color: orange;
+  color: rgb(18, 17, 17);
+  padding: 12px;
+  margin: 10px 0;
+  border:transparent;
+  width: 80%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: rgb(40, 176, 40);
+}
+
+span.price {
+  float:right;
+  color: rgb(251, 251, 251);
+}
+
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+p a{
+   color: rgb(252, 251, 251);
+   text-decoration: none;
+}
+.info{
+    
+    background-image: linear-gradient(170deg, rgb(219, 132, 33) 50%,black 40%),
+    linear-gradient( 180deg, rgba(0,0,0,0) 100%) , url(pic/bg7.jpg);
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    font-size: 14px;
+    border-bottom: 1px solid #574e4e;
+}
+
+.info .info-left{
+    display: flex;
+}
+.info-left section{
+    margin-right: 20px;
+}
+.info-right{
+    display: flex;
+    align-items: center;
+}
+.info-right .social{
+    margin-right: 20px;
+}
+.info-right .social a{
+    margin: 0px 5px;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 1s ease-in-out;
+}
+.info-right .social a:hover{
+    color: green;
+}
+.info-right .info-link a{
+    display: inline-block;
+    color: #FFF;
+    text-transform: capitalize;
+    background: var(--main-color);
+    border: 1px solid var(--main-color);
+    transition: .4s ease-in-out;
+    padding: 7px 12px;
+    border-radius: 5px;
+}
+
+.info-link a:hover{
+    border-color: green;
+    background: transparent;
+    text-decoration: none;
+}
+i{
+   padding-right: 10px;
+   cursor: pointer;
+}
+    </style>
+</head>
+<body>
+   <div class="info">
+      <div class="info-left">
+          <section>
+              <i class="fas fa-phone"></i> +91 70562-2XXXX
+          </section>
+          <section>
+              <i class="fas fa-envelope"></i>TheCoffeeShop@gmail.com
+          </section>
+      </div>
+      <div class="info-right">
+        
+          <div class="social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+      </div>
+
+  </div>
+    <div class="row">
+        <div class="col-75">
+          <div class="container">
+            <form action="">
+      
+              <div class="row">
+                <div class="col-50">
+                  <h1>Place Your Order  </h1>
+                  <label for="fname">Full Name</label>
+                  <input type="text" id="name" name="firstname" placeholder="Full Name">
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" placeholder="E-mail">
+                  <label for="Phone">Phone Number</label>
+                  <input type="text" id="phone" name="email" placeholder="Phone Number">
+      
+                </div>
+      
+                <div class="col-50">
+                  <h2>Payment</h2>
+                  <label for="fname" style="color: white;">Accepted UPI</label>
+                  <div class="icon-container">
+                  
+                    <i class="fa-brands fa-google-pay" style="color: #f1ecec;"></i>
+                    <i class="fa-brands fa-amazon-pay" style="color: #f4ecec;"></i>
+                    
+                  </div>
+                  
+                   <input type="submit" value="Continue to checkout" class="btn" style=" color: white; background-color: rgb(219, 132, 33);">
+                  
+                </div>
+            </form>
+          </div>
+        </div>
+      
+        <div class="col-25">
+          <div class="container" style="height: 70px;">
+            
+          </div>
+        </div>
+      </div>
+
+      <script>
+        function submitForm(event) {
+    event.preventDefault();
+
+    const formData = {
+        fullName: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        phone: document.getElementById('phone').value,
+
+    };
+
+    localStorage.setItem('userDetails', JSON.stringify(formData));
+
+    window.location.href = 'thankyou.html';
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('form');
+    form.addEventListener('submit', submitForm);
+});
+
+      </script>
+</body>
+</html>
