@@ -202,11 +202,11 @@ i{
                 <div class="col-50">
                   <h1>Place Your Order  </h1>
                   <label for="fname">Full Name</label>
-                  <input type="text" id="name" name="firstname" placeholder="Full Name">
+                  <input type="text" id="name" name="firstname" placeholder="Full Name" required >
                   <label for="email">Email</label>
-                  <input type="text" id="email" name="email" placeholder="E-mail">
+                  <input type="email" id="email" name="email" placeholder="E-mail" required  >
                   <label for="Phone">Phone Number</label>
-                  <input type="text" id="phone" name="email" placeholder="Phone Number">
+                  <input type="tel" id="phone" name="email" placeholder="Phone Number" pattern="[0-9]{5}-[0-9]{5}" required minlength="10">
       
                 </div>
       
