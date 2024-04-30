@@ -1,47 +1,48 @@
-   <!-- start footer section  -->
-    
-   <div class="footer" id="contact">
-    <div class="footer-flex">
-        <div class="footer1">
-            <div>
-            </div>
-            <section style="font-size: 23px;">
-                FOLLOW US :-
-            </section>
-            <div class="footer-links">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-            </div>
-        </div>
-
-        <div class="footer1">
-            <h3>contact info</h3>
-            <div class="location">
-                <span><i class="fas fa-map-marker-alt"></i></span>
-                <a href="#">our location :-</a>
-                <section>CHITKARA UNIVERSITY</section>
-            </div>
-            <div class="location">
-                <span><i class="fas fa-phone"></i></span>
-                <a href="#">our phone</a>
-                <section>+91 70562-2XXXX</section>
-                <section>+91 97292-2XXXX</section>
-            </div>
-        </div>
-        <div class="footer1">
-            <h3>subscribe</h3>
-            <form action="">
-                <input type="email" name="" id="" placeholder="Your Email">
-                <a href="#">subscribe</a>
-            </form>
-        </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thank You for Your Order!</title>
+    <style>
+        body{
+            margin-top: 100px;
+            
+            color: white;
+            background-repeat: no-repeat;
+                       background-image: linear-gradient(to right bottom, rgb(219, 132, 33) 33%, rgb(0, 0, 1) 67%),
+    linear-gradient( 180deg, rgba(0,0,0,0) 96%, rgba(0,0,0,1) 100%) , url(pic/bg7.jpg);
+        }
+        #userDetails{
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            height: 533px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; ">Thank You for Your Order!</h1>
+    <div id="userDetails">
+       
     </div>
+    <script>document.addEventListener('DOMContentLoaded', function() {
+      
+        const userDetails = JSON.parse(localStorage.getItem('userDetails'));
     
-</div>
-
-<!-- end footer section  -->
-<script src="main.js"></script>
+        
+        const userDetailsContainer = document.getElementById('userDetails');
+    
+        if (userDetails) {
+            const userDetailsHTML = `
+                
+                <p><strong>Full Name:</s trong> ${userDetails.fullName}</p>
+                <p><strong>Email:</strong> ${userDetails.email}</p>
+                <p><strong>Phone Number:</strong> ${userDetails.phone}</p>
+                
+            ;
+            userDetailsContainer.innerHTML = userDetailsHTML;
+            `}
+    }
+)
+    </script>
 </body>
 </html>
