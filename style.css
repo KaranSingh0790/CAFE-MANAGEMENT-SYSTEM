@@ -10,6 +10,16 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(170deg, rgba(0,0,0,1) 25%, rgb(219, 132, 33) 47%) ,
-    linear-gradient( 180deg, rgba(0,0,0,0) 96%, rgba(0,0,0,1) 100%);
+    background: #4070f4/* background-image: linear-gradient(170deg, rgba(0,0,0,1) 25%, rgb(219, 132, 33) 47%) ,
+    linear-gradient( 180deg, rgba(0,0,0,0) 96%, rgba(0,0,0,1) 100%); */
+}
+.container{
+     background: #fff;
+     padding:30px 65px;
+     border-radius: 12px;
+     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+form input{
+    height:45px;
+    width: 42 px;
 }
