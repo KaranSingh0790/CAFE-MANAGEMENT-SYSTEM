@@ -13,7 +13,7 @@ body{
     background: #4070f4/* background-image: linear-gradient(170deg, rgba(0,0,0,1) 25%, rgb(219, 132, 33) 47%) ,
     linear-gradient( 180deg, rgba(0,0,0,0) 96%, rgba(0,0,0,1) 100%); */
 }
-:where(.container,form, .input-field )
+:where(.container,form, .input-field,header )
 {
     display:flex;
     flex-direction: column;
@@ -35,11 +35,20 @@ body{
     font-size:2.5 rem;
     border-radius:50%;
 }
+.container h4{
+    font-size: 1.25rem;
+    color:#333;
+    font-weight: 500;
+}
 form .input-field {
     flex-direction: row;
     column-gap: 10px ;
 }
-form input{
+.input-field input{
     height:45px;
     width: 42 px;
+    border-radius: 6px;
+    outline: none;
+    text-align: center;
+    border: 1px solid #ddd;
 }
