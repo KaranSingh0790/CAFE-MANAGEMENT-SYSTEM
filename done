@@ -1,0 +1,278 @@
+[33mcommit b1072306be602a2ad3259eb7343e12939faa9be9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Karan <ks227626@gmail.com>
+Date:   Tue May 7 11:23:33 2024 +0530
+
+    images are added in the menusection
+
+[33mcommit c997388e8141b4974f679a90ea44cbecafb20af5[m
+Merge: 9905dc6 22a3f8f
+Author: Karan <ks227626@gmail.com>
+Date:   Tue May 7 11:16:59 2024 +0530
+
+    Merge branch 'master' of https://github.com/KaranSingh0790/CAFE-MANAGEMENT-SYSTEM
+
+[33mcommit 22a3f8f0f35b6775a085acd9345b09f9d2ab5f54[m
+Author: narayani <narayanidogra@gmail.com>
+Date:   Tue May 7 11:16:29 2024 +0530
+
+    added html for otp
+
+[33mcommit 9905dc6f2ba7f658c20d261ed8fb142d5877a7e4[m
+Author: Karan <ks227626@gmail.com>
+Date:   Tue May 7 11:16:09 2024 +0530
+
+    images are added in the homesection
+
+[33mcommit 05f328b8d9fbfe3a90cbbe2059b2f274cbe90c84[m
+Merge: fc1150f 3fd3717
+Author: narayani <narayanidogra@gmail.com>
+Date:   Tue May 7 10:50:14 2024 +0530
+
+    Merge branch 'master' of https://github.com/KaranSingh0790/CAFE-MANAGEMENT-SYSTEM
+
+[33mcommit 3fd37170568955ef29c8e9a4a6adb1907e1a3eda[m
+Author: Mayank <mayankbagga25@gmail.com>
+Date:   Tue May 7 02:34:17 2024 +0530
+
+    food section added
+
+[33mcommit a100430f16449791ba61ee02aa1ce36a04849cc0[m
+Author: Mayank <mayankbagga25@gmail.com>
+Date:   Tue May 7 01:01:12 2024 +0530
+
+    razorpay payment gateway added
+
+[33mcommit fc1150f70b61ca54fdb8a3de73dfa4433cc2a3d6[m
+Author: narayani <narayanidogra@gmail.com>
+Date:   Thu May 2 17:09:58 2024 +0530
+
+    added more to menu page
+
+[33mcommit 59b6eb6009b4c20cf9105d64a61b0b4bd8413a59[m
+Author: narayani <narayanidogra@gmail.com>
+Date:   Wed May 1 19:35:56 2024 +0530
+
+    modified picture area
+
+[33mcommit 1b6907e737ac6b8e2e5dedf1d4bcfd9248ae495b[m
+Author: narayani <narayanidogra@gmail.com>
+Date:   Wed May 1 19:30:20 2024 +0530
+
+    added 2 more options in menu page
+
+[33mcommit 734cd833f89e2afd05d8bbf3adf78395f0719884[m
+Author: Karan Singh <156638995+KaranSingh0790@users.noreply.github.com>
+Date:   Tue Apr 30 14:27:32 2024 +0530
+
+    footer section removed
+
+[33mcommit e9a97094488a9b610c70e97bf15f847e6054238e[m
+Author: Karan <ks227626@gmail.com>
+Date:   Tue Apr 30 14:24:49 2024 +0530
+
+    subscribe button added
+
+[33mcommit bafe3e3b598dc5e8f6afd124d4b55992ab79258b[m
+Merge: 3e050aa 0c372f8
+Author: Karan <ks227626@gmail.com>
+Date:   Tue Apr 30 11:25:44 2024 +0530
+
+    Merge branch 'master' of https://github.com/KaranSingh0790/CAFE-MANAGEMENT-SYSTEM
+
+[33mcommit 0c372f82b5c3158ac75a82a9bcaac389aceeb478[m
+Author: narayani <narayanidogra@gmail.com>
+Date:   Tue Apr 30 11:24:53 2024 +0530
+
+    checkout page footer section error resolved
+
+[33mcommit 3e050aa7e435cf268a2672a4bf89e2bb6c6f809e[m
+Author: Karan <ks227626@gmail.com>
+Date:   Tue Apr 30 11:24:16 2024 +0530
+
+    checkout page updated
+
+[33mcommit 8ce4ff3ad7f8e515d1c98d257eddee4f2a429221[m
+Author: Karan <ks227626@gmail.com>
+Date:   Tue Apr 30 11:07:29 2024 +0530
+
+    thankyou page updated
+
+[33mcommit 51ad3ef5e4f6bff90a4972aeb79fbba22563531d[m
+Merge: 1540b0b 6a443bc
+Author: Karan <ks227626@gmail.com>
+Date:   Tue Apr 30 10:56:19 2024 +0530
+
+    Merge branch 'master' of https://github.com/KaranSingh0790/CAFE-MANAGEMENT-SYSTEM
+
+[33mcommit 1540b0bddb4e53dc6b89ae7c4732366a7e11e2ed[m
+Author: Karan <ks227626@gmail.com>
+Date:   Tue Apr 30 10:55:21 2024 +0530
+
+    price updated
+
+[33mcommit 6a443bc42804817514a59b2fa31947ce9d633b1b[m
+Author: narayani <narayanidogra@gmail.com>
+Date:   Fri Apr 26 13:52:57 2024 +0530
+
+    revert changes in thank you page
+
+[33mcommit d1db77a52f38af94dd7c6dea59f340477655e2e1[m
+Merge: 5459aa4 84c66fa
+Author: narayani <narayanidogra@gmail.com>
+Date:   Fri Apr 26 13:50:30 2024 +0530
+
+    Merge branch 'master' of https://github.com/KaranSingh0790/CAFE-MANAGEMENT-SYSTEM
+
+[33mcommit 5459aa411edaf155bbe58eb0150be4110900fc6f[m
+Author: narayani <narayanidogra@gmail.com>
+Date:   Fri Apr 26 13:50:09 2024 +0530
+
+    changes in thank you page
+
+[33mcommit 84c66fab33c2586ef4e3c67e7b629a5f60c60377[m
+Author: Mayank <mayankbagga25@gmail.com>
+Date:   Wed Apr 24 01:28:19 2024 +0530
+
+    Changes made in checkout page
+
+[33mcommit b0e85a8ff1f07aae69207738bbcef740e75535fb[m
+Author: Mayank <mayankbagga25@gmail.com>
+Date:   Wed Apr 24 01:03:14 2024 +0530
+
+    checkout page changed
+
+[33mcommit 8fb5ae03ad6a6492f5f2821811d58230359b32e3[m
+Author: Mayank <mayankbagga25@gmail.com>
+Date:   Wed Apr 24 00:41:11 2024 +0530
+
+    footer added in shop now page
+
+[33mcommit e4e6615d8710a2bb98f8459702387b6715b241fa[m
+Author: narayani <narayanidogra@gmail.com>
+Date:   Tue Apr 23 11:56:55 2024 +0530
+
+    thank you page
+
+[33mcommit bd6f4f01caec4f727180701f33a83b9e6c6f7e66[m
+Author: narayani <narayanidogra@gmail.com>
+Date:   Tue Apr 23 11:54:52 2024 +0530
+
+    changes made in checkout page
+
+[33mcommit bb823e8eec9d43c31bdaee06022518d20f0bce4c[m
+Author: Karan Singh <156638995+KaranSingh0790@users.noreply.github.com>
+Date:   Tue Apr 23 11:50:22 2024 +0530
+
+    Update index.html
+
+[33mcommit 69cf76404d9a892fe6c2363b4e966fe5e63c4cce[m
+Author: Karan <ks227626@gmail.com>
+Date:   Tue Apr 23 11:44:52 2024 +0530
+
+    extra code removed
+
+[33mcommit d9df6ffdfe412aa6fd570ab632b6f33121456809[m
+Merge: cae4720 6b4f474
+Author: narayani <narayanidogra@gmail.com>
+Date:   Tue Apr 23 11:30:05 2024 +0530
+
+    changes made
+
+[33mcommit cae4720cc8be36ddbb1468c29785499471be8972[m
+Author: narayani <narayanidogra@gmail.com>
+Date:   Tue Apr 23 11:26:32 2024 +0530
+
+    changes made in footersection
+
+[33mcommit 6b4f474ec8f10d3f05a9fd0070fb7dd3c001a449[m
+Author: Kabir <kabirkamra11@gmail.com>
+Date:   Tue Apr 23 11:18:12 2024 +0530
+
+    Beverages added
+
+[33mcommit fd674819b029e4bf2e36a262994bf5dacde838d5[m
+Merge: 757f25f ed176d5
+Author: narayani <narayanidogra@gmail.com>
+Date:   Tue Apr 23 11:11:45 2024 +0530
+
+    Merge branch 'master' of https://github.com/KaranSingh0790/CAFE-MANAGEMENT-SYSTEM
+
+[33mcommit 757f25f4a8e5e5e919a0cc6ff0a3c1c9f767e1c3[m
+Author: narayani <narayanidogra@gmail.com>
+Date:   Tue Apr 23 11:11:32 2024 +0530
+
+    checkout page added
+
+[33mcommit ed176d528f737faa7a860ab0cea7de2d219c3c85[m
+Author: Mayank <mayankbagga25@gmail.com>
+Date:   Tue Apr 23 11:09:02 2024 +0530
+
+    menupage added
+
+[33mcommit 957a0abed4570c27f7be8278f6f680593b4e2cb9[m
+Author: Kabir <kabirkamra11@gmail.com>
+Date:   Tue Apr 23 11:06:10 2024 +0530
+
+    Menu Price
+
+[33mcommit aef0d55b8daba0b8b4ab6a45c03816ed9cd58f15[m
+Author: Kabir <kabirkamra11@gmail.com>
+Date:   Tue Apr 23 11:03:29 2024 +0530
+
+    Thank you
+
+[33mcommit b805ebd3f6ca476d2916c3d6e342b0ae20dd298d[m
+Merge: 70758ff cb3d440
+Author: Karan <ks227626@gmail.com>
+Date:   Tue Apr 23 10:57:45 2024 +0530
+
+    Merge branch 'master' of https://github.com/KaranSingh0790/CAFE-MANAGEMENT-SYSTEM
+
+[33mcommit 70758ffac810c379acf43a3d7ed1a09c44acf0fe[m
+Author: Karan <ks227626@gmail.com>
+Date:   Tue Apr 23 10:56:42 2024 +0530
+
+    css added
+
+[33mcommit cb3d440be2df4a310fb4a23b5001af7aedc31b3c[m
+Merge: 41080a9 1af5a29
+Author: narayani <narayanidogra@gmail.com>
+Date:   Tue Apr 23 10:53:45 2024 +0530
+
+    Merge Branch 'master' of https://github.com/KaranSingh0790/CAFE-MANAGEMENT-SYSTEM
+
+[33mcommit 41080a95dbf78441abf64cb4310bf314e4047154[m
+Author: narayani <narayanidogra@gmail.com>
+Date:   Tue Apr 23 10:53:25 2024 +0530
+
+    footersection added
+
+[33mcommit 1af5a29e080b6b5e920e5571d7c8f467d7c4c4f9[m
+Author: Kabir <kabirkamra11@gmail.com>
+Date:   Tue Apr 23 10:50:54 2024 +0530
+
+    .
+
+[33mcommit 31341dd1c6f0caccb6125eae54262158b355ab57[m
+Author: Mayank <mayankbagga25@gmail.com>
+Date:   Tue Apr 23 10:46:41 2024 +0530
+
+    about section added
+
+[33mcommit 5f2d97bb325dbeb37b7ca626daedcd2146faf473[m
+Author: Karan <ks227626@gmail.com>
+Date:   Mon Apr 22 10:42:37 2024 +0530
+
+    shop and menu section added
+
+[33mcommit 26edf694edc1682c35f23ea453ce8471fcb8cf09[m
+Author: Karan <ks227626@gmail.com>
+Date:   Wed Apr 17 15:32:22 2024 +0530
+
+    home page added
+
+[33mcommit cb27889b291edec359e9f75c5ed7e5e303ee574f[m
+Author: Karan <ks227626@gmail.com>
+Date:   Wed Apr 17 15:26:01 2024 +0530
+
+    index.html created
