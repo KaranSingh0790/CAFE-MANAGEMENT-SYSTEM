@@ -57,3 +57,21 @@ form .input-field {
 .input-field input::-webkit-inner-spin-button{
     display: none;
 }
+.form button{
+    margin-top: 25px;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    padding: 9px 0;
+    cursor:pointer;
+    border-radius: 6px;
+    background: #6e93f7;
+    transition: all 0.2s ease;
+}
+.form button.active{
+    background: #4070f4;
+}
+.form button:hover{
+    background: #0e4bf1;
+}
