@@ -49,6 +49,11 @@ form .input-field {
     width: 42 px;
     border-radius: 6px;
     outline: none;
+    font-size: 1.125rem;
     text-align: center;
     border: 1px solid #ddd;
+}
+.input-field input::-webkit-inner-spin-button,
+.input-field input::-webkit-inner-spin-button{
+    display: none;
 }
