@@ -94,7 +94,7 @@
             
         </div>
         <p>Total: &#8377<span id="total">0.00</span></p>
-        <input type="submit" onclick="window.location.href='https://rzp.io/l/1ffhooRTc';" value="Continue to checkout" class="btn" style=" color: white; background-color: rgb(219, 132, 33);">
+        <input type="submit" onclick="window.location.href='https://rzp.io/l/1ffhooRTc';" value="Continue to checkout" required class="btn" style=" color: white; background-color: rgb(219, 132, 33) ;">
     </div>
 
    
@@ -126,8 +126,8 @@
     {id:24,name:'Virgin Mojito' ,price : 119 ,imageUrl:''},
     {id:25,name:'Spiced Chai' ,price : 120 ,imageUrl:''},
     {id:26,name:'Thai Iced Tea' ,price : 99 ,imageUrl:''},
-    {id:27,name:'Nutella Mocha' ,price : 139 ,imageUrl:''},
-    {id:28,name:'Vienna Coffee' ,price : 99 ,imageUrl:''},
+    {id:27,name:'Nutella Mocha' ,price : 139 ,imageUrl:'https://toddycafe.com/resources/img/toddy-cold-brew-coffee-extract.jpg'},
+    {id:28,name:'Vienna Coffee' ,price : 99 ,imageUrl:'https://helios-i.mashable.com/imagery/articles/04I4VSSuUMcMCuN3XvQlQwG/images-1.fill.size_256x256.v1619056473.jpg'},
     {id:29,name:'Black Coffee' ,price : 139 ,imageUrl:''},
     {id:30,name:'Peppermint Hot Choclate' ,price : 169 ,imageUrl:''},
     {id:31,name:'Cortado' ,price : 129 ,imageUrl:''},
@@ -139,7 +139,7 @@
 
 ];
 
-        const menuSection = document.getElementById('menu');
+        const menuSection = document.getElementById('menu') ;
         const cartItemsContainer = document.getElementById('cart-items');
         const totalElement = document.getElementById('total');
         let cart = [];
