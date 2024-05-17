@@ -1,0 +1,176 @@
+/* Styles for the heading */
+h1 {
+    color: #FF5733; /* Orange */
+}
+
+/* Styles for the shop items */
+.shop1 {
+    border: 2px solid #FFC300; /* Yellow */
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #FFDCDC; /* Light Pink */
+}
+
+/* Styles for the images */
+.shop-image img {
+    width: 25%;
+    height: auto;
+}
+
+/* Styles for the product names */
+h2 {
+    color: #C70039; /* Crimson Red */
+}
+
+/* Styles for the star ratings */
+.staRs {
+    color: #FFD700; /* Gold */
+}
+
+/* Styles for the article prices */
+article {
+    color: #4CAF50; /* Green */
+    font-weight: bold;
+}
+
+/* Additional styles can be added as needed */
+
+/* Styles for the "Quick Bites" heading */
+h1 {
+    color: #FF5733; /* Orange */
+}
+
+/* Styles for the "Quick Bites" section */
+.quick {
+    color: #4A90E2; /* Dodger Blue */
+}
+
+/* Styles for the shop items in the "Quick Bites" section */
+.quick .shop1 {
+    border: 2px solid #3498DB; /* Blue */
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #D6EAF8; /* Light Blue */
+}
+
+/* Additional styles can be added as needed */
+
+/* Styles for the "Veg Burgers" heading */
+h1 {
+    color: #FF5733; /* Orange */
+}
+
+/* Styles for the "Veg Burgers" section */
+.veg {
+    color: #27AE60; /* Green */
+}
+
+/* Styles for the shop items in the "Veg Burgers" section */
+.veg .shop1 {
+    border: 2px solid #2ECC71; /* Light Green */
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #D5F5E3; /* Mint Green */
+}
+
+/* Additional styles can be added as needed */
+
+/* Styling for Non-Veg Burgers section */
+h1 {
+    color: darkred;
+}
+
+.shop1.non-veg.burgers {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.shop1.non-veg.burgers h2 {
+    color: darkred;
+}
+
+.shop1.non-veg.burgers .staRs i {
+    color: gold;
+}
+
+.shop1.non-veg.burgers article {
+    color: darkred;
+}
+
+/* Styling for Veg Sandwiches section */
+h1 {
+    color: darkgreen;
+}
+
+.shop1.veg.sandwich {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.shop1.veg.sandwich h2 {
+    color: darkgreen;
+}
+
+.shop1.veg.sandwich .staRs i {
+    color: gold;
+}
+
+.shop1.veg.sandwich article {
+    color: darkgreen;
+}
+
+/* Styling for Veg Pizza section */
+h1 {
+    color: darkgreen;
+}
+
+.shop1.veg.pizza {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.shop1.veg.pizza h2 {
+    color: darkgreen;
+}
+
+.shop1.veg.pizza .staRs i {
+    color: gold;
+}
+
+.shop1.veg.pizza article {
+    color: darkgreen;
+}
+
+/* Styling for Non-Veg Pizza section */
+h1 {
+    color: darkred;
+}
+
+.shop1.non-veg.pizza {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.shop1.non-veg.pizza h2 {
+    color: darkred;
+}
+
+.shop1.non-veg.pizza .staRs i {
+    color: gold;
+}
+
+.shop1.non-veg.pizza article {
+    color: darkred;
+}
